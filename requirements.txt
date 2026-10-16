@@ -1,0 +1,26 @@
+# Core
+openai==1.35.0
+python-dotenv==1.0.1
+
+# Parsing & ingestion
+gitpython==3.1.43
+markdown-it-py==3.0.0
+
+# Storage
+tinydb==4.8.0
+
+# Vector search
+chromadb==0.5.3
+sentence-transformers==3.0.1
+
+# CLI
+click==8.1.7
+rich==13.7.1
+
+# Web server (for dashboard API)
+fastapi==0.111.0
+uvicorn==0.30.1
+
+# Utilities
+pydantic==2.7.4
+python-dateutil==2.9.0
