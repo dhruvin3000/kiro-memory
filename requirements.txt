@@ -10,8 +10,8 @@ markdown-it-py==3.0.0
 tinydb==4.8.0
 
 # Vector search
-chromadb==0.5.3
-sentence-transformers==3.0.1
+# chromadb==0.5.3  # Requires Visual Studio C++ Build Tools - install separately
+# sentence-transformers==3.0.1  # Heavy ML dependency - install if needed
 
 # CLI
 click==8.1.7
